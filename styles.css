@@ -1,0 +1,354 @@
+body {
+	background-image: url('imagini/fundal.jpg');
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-color: #111;
+	margin: 40px auto 10px auto;
+	font-size: 16px;
+	background-size: 100%;
+	font-family: "Trebuchet MS", Verdana, Arial;
+}
+
+/* titluri */
+
+h2 {
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: rgb(103, 0, 124);
+	text-align: center;
+	background-color: rgb(255, 230, 255);
+}
+
+h5 {
+	font-family: titan one, cursive;
+	font-size: 40px;
+	text-align: center;
+	color: rgb(255, 0, 234);
+	background-color: #0808081a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: titillium web;
+	color: hsl(0, 100%, 31%);
+
+}
+
+h4 {
+	font-size: 1.2em;
+}
+
+/* linkuri */
+a,
+a:visited {
+	color: hsl(325, 100%, 40%);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* text */
+p {
+	margin: 6px 0 10px 0;
+	text-align: justify;
+	margin-left: 10px;
+}
+
+/* liste */
+ul {
+	margin-right: 30px;
+}
+
+ol {
+	margin: 4px 0 4px 27px;
+}
+
+/* wrapper, header and nav */
+div#wrap {
+	width: 900px;
+	margin: 0 auto;
+	border: 2px solid #080808;
+
+	background-color: #FFFFFF;
+}
+
+div#header {
+	background-image: url('imagini/editat.jpg');
+	width: 900px;
+	height: 250px;
+}
+
+div#header h1 {
+	font-family: "titan one", cursive;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	margin: 0px;
+	font-size: 50px;
+}
+
+div#nav {
+	width: 100%;
+	height: 50px;
+	background-color: crimson;
+	background-repeat: repeat-x;
+	background-position: center bottom;
+}
+
+div#nav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+div#nav ul li {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+div#nav ul li a {
+	float: left;
+	padding: 14px 16px;
+	font-weight: bold;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+
+div#nav ul li a:hover {
+	background-color: rgb(255, 168, 168);
+}
+
+/* continut */
+div#content {
+	margin: 2px 6px;
+}
+
+
+/* footer */
+div#footer {
+	clear: both;
+}
+
+div#footer p {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+/* descrieri, fotografii */
+.gfg {
+	position: relative;
+}
+
+.first-txt {
+	position: absolute;
+	top: 17px;
+	left: 30px;
+}
+
+.second-txt {
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 60px;
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+.desc {
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 17px;
+	color: black;
+	text-align: center;
+}
+
+footer {
+	background-color: AntiqueWhite;
+	padding: 10px 5px;
+}
+
+.subsol {
+	font-size: 20px;
+	color: rgb(23, 0, 128);
+	text-align: center;
+}
+
+.img-public {
+	width: 300px;
+	float: right;
+	margin: 5px;
+}
+
+.img-franta {
+	width: 50%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 222px;
+}
+
+.img-londra {
+	width: 47%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 222px;
+}
+
+.img-spania {
+	width: 50%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 222px;
+}
+
+.intertitlu {
+	font-family: "Tittilium web", cursive;
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 15px;
+	color: black;
+	text-align: center;
+	border-style: solid;
+	border-width: 20px 5px;
+	/* 20px top and bottom, 5px on the sides */
+	border-color: crimson;
+}
+
+.board {
+	display: inline-block;
+	font-family: "Lucida Handwriting", cursive;
+	font-size: 15px;
+	float: none;
+	color: tan;
+	font-weight: italic;
+}
+
+.imgboard {
+	display: inline-block;
+	border: 1px solid black;
+	width: 100%;
+	height: auto;
+}
+
+.sectiune-echipa {
+	display: inline-block;
+	width: 24%;
+
+
+}
+
+.container-echipa::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.lista verticala {
+	font-family: "Garamond", serif;
+	font-size: 40px;
+	text-align: center;
+}
+
+.lista a {
+	text-decoration: none;
+	color: rgb(37, 0, 28);
+}
+
+.lista a:hover {
+	font-weight: bold;
+}
+
+.verticala {
+	list-style-type: none;
+	vertical-align: 100%;
+}
+
+.verticala li {
+	font-family: titan one, serif;
+	font-style: oblique;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 29px;
+	width: 100%;
+	color: white;
+	background-color: rgb(255, 151, 203);
+}
+
+.verticala li:hover {
+	background-color: rgb(223, 0, 0);
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	width: 33.3%;
+	/* sau calc(100%/3) */
+	margin: 10px;
+	background: rgb(255, 185, 185);
+}
+
+.card {
+	padding: 10px;
+}
+
+.card h2 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card p {
+	margin-bottom: 0;
+}
+
+.button {
+	border: rgb(0, 0, 0);
+	color: rgb(251, 208, 255);
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button1 {
+	background-color: #ffe9fd;
+	align-items: center;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 288px;
+	width: 315px;
+	left: 297px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 288px;
+	width: 315px;
+}
+.centrat p{
+	text-align: center;
+}
